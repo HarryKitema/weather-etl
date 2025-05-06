@@ -1,6 +1,8 @@
 # Python virtual environment
 .venv/
 venv/
+ENV/
+env/
 
 # Build artifacts
 dist/
@@ -14,3 +16,12 @@ build/
 .vscode/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python environment marker
+.Python
